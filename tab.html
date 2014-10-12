@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src = "js/jquery-1.11.1.min.js"></script>
+	<script src = "js/bootstrap.min.js"></script>
+	<script src = "js/jquery.tab.js"></script>
+	<script>
+	$(document).ready(function(){
+		var comment = [
+			"jQuery is a fast, small, and feature-rich JavaScript library. It makes \
+			things like HTML document traversal and manipulation, event handling, \
+			animation, and Ajax much simpler with an easy-to-use API that works \
+			across a multitude of browsers. With a combination of versatility and \
+			extensibility.",
+			"HTML is written in the form of HTML elements consisting of tags enclosed \
+			in angle brackets (like <html>). HTML tags most commonly come in pairs like \
+			<h1> and </h1>, although some tags represent empty elements and so are \
+			unpaired,(they are also called opening tags and closing tags).",
+			"CSS is designed primarily to enable the separation of document content\
+			 from document presentation, including elements such as the layout, colors,\
+			  and fonts.[1] This separation can improve content accessibility, provide \
+			 (such as by allowing for tableless web design).",
+		];
+		$(".tab").tab(comment);
+	});
+	</script>
+</head>
+<body>
+    <div class="tab"></div>
+</body>
+</html>
